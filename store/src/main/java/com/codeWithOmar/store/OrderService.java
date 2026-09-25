@@ -15,6 +15,7 @@ public class OrderService {
     public OrderService(PaymentService paymentService) {
 
         this.paymentService = paymentService;
+        System.out.println("Order service created");
     }
 
     public void placeOrder() {
