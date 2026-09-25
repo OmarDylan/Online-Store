@@ -1,10 +1,10 @@
-package com.codeWithOmar.store;
+package com.codeWithOmar.store.exercise1;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-@Service("email")
-@Primary
+//@Service("email")
+//@Primary
 public class EmailNotificationService implements NotificationService {
 
 

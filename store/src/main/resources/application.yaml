@@ -7,3 +7,7 @@ stripe:
   enabled: true
   supported-currencies: USD,EUR,GBP
 payment-gateway: stripe
+
+email:
+  host: https://smtp.gmail.com
+  port: 5761
