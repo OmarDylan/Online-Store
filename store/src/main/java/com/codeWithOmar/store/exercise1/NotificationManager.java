@@ -1,4 +1,4 @@
-package com.codeWithOmar.store;
+package com.codeWithOmar.store.exercise1;
 
 import org.springframework.stereotype.Service;
 
