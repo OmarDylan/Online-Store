@@ -11,14 +11,9 @@ public class StoreApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(StoreApplication.class, args);
-//		var orderService = context.getBean(OrderService.class);
-//        var orderService2 = context.getBean(OrderService.class);
-//		orderService.placeOrder();
-//        context.close();
-
-        var userService = context.getBean(UserService.class);
-        userService.registerUser(new User(1L, "codewithomar@com.com", "12345", "Codewith"));
-        userService.registerUser(new User(1L, "codewithomar@com.com", "12345", "Codewith")); // testing duplicate
+		var orderService = context.getBean(OrderService.class);
+        var orderService2 = context.getBean(OrderService.class);
+		orderService.placeOrder();
 	}
 
 }
