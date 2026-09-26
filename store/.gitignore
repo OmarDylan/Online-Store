@@ -32,4 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
+### Spring Boot Secret Configurations ###
+**/src/main/resources/application.properties
 **/src/main/resources/application.yaml
+**/src/main/resources/application.yml
